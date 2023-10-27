@@ -1,1 +1,1 @@
-This folder contains our diagrams for system design. 
+This folder contains our diagrams for system design, as well as the technical report detailing system design (which incorporates the diagrams)
