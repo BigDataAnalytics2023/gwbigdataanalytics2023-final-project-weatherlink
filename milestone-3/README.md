@@ -1,0 +1,1 @@
+This folder contains our diagrams for system design. 
