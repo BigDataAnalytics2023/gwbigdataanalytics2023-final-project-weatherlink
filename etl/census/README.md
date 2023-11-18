@@ -12,8 +12,17 @@ Notably, there is no 2020 Census data at the 1 yr level, there is a 5 year aggre
 
 Requires the Google Cloud Client
 https://cloud.google.com/bigquery/docs/reference/libraries#client-libraries-usage-python
+https://console.cloud.google.com/welcome?walkthrough_id=bigquery--python-client-library
 
 You must install the client with pip for this to work, and set up your authentication details, following the instructions in the link above.
 ```
 pip3 install google-cloud-bigquery
 ```
+
+There is a service account I have created you can use. You need a json file with an auth key and to declare an environment variable. PM me for details.
+Once you have the json file with your key, do this:
+```
+export GOOGLE_APPLICATION_CREDENTIALS="/path/to/your/keyfile.json"
+```
+
+Then you can run the client libraries in python
